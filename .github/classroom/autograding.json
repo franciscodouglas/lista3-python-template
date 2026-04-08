@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Verificação de Arquivos Python",
+      "setup": "",
+      "run": "python3 -m py_compile *.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Exercício 01 - Verificação de Idade para Ingresso",
+      "setup": "",
+      "run": "python3 .grading/grade.py ex1",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 1
+    },
+    {
+      "name": "Exercício 02 - Cálculo de Média",
+      "setup": "",
+      "run": "python3 .grading/grade.py ex2",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 1
+    },
+    {
+      "name": "Exercício 03 - Sistema de Descontos",
+      "setup": "",
+      "run": "python3 .grading/grade.py ex3",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 1
+    },
+    {
+      "name": "Exercício 04 - Cálculo de INSS",
+      "setup": "",
+      "run": "python3 .grading/grade.py ex4",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 2
+    },
+    {
+      "name": "Exercício 05 - Cálculo de Imposto de Renda",
+      "setup": "",
+      "run": "python3 .grading/grade.py ex5",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 2
+    },
+    {
+      "name": "Exercício 06 - Cálculo de Salário Líquido",
+      "setup": "",
+      "run": "python3 .grading/grade.py ex6",
+      "input": "",
+      "output": "OK",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 2
+    }
+  ]
+}
